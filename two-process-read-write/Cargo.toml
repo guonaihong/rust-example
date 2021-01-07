@@ -1,0 +1,11 @@
+[package]
+name = "two-process-read-write"
+version = "0.1.0"
+authors = ["guonaihong <guonaihong@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.16.1"
+libc = "0.2"

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message HotWordRequest {
+    string model_type = 1;
+    string model_text=2;
+    string session_id = 3;
+}
+
+message HotWordResponse {
+    int64 errcode = 1;
+    string errmsg = 2;
+    string session_id = 3;
+    bytes gen_model=4;
+}

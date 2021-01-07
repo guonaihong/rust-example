@@ -1,0 +1,19 @@
+[package]
+name = "tcp-client-and-server"
+version = "0.1.0"
+authors = ["guonaihong <guonaihong@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name="client"
+path="./src/client.rs"
+
+[[bin]]
+name="server"
+path="./src/server.rs"
+
+[dependencies]
+structopt = "0.3"
+
