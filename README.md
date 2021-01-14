@@ -15,3 +15,6 @@ fork结合wait，实现崩溃任他崩溃，工作继续的设计策略
 
 ## trait-example
 trait 和dyn使用示例
+
+## raw-ptr-to-slice
+裸指针强转成slice类型
